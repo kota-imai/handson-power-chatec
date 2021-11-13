@@ -1,0 +1,177 @@
+{
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "size": "kilo",
+        "hero": {
+          "type": "image",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover",
+          "url": "https://user-images.githubusercontent.com/56163213/134349272-fe00e53c-570b-4a07-988d-eef5ac630c75.png"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "キーホルダー１",
+              "wrap": true,
+              "weight": "bold",
+              "size": "lg"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "900 円",
+                  "wrap": true,
+                  "weight": "bold",
+                  "size": "lg",
+                  "flex": 0,
+                  "color": "#DC3545"
+                }
+              ]
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "style": "primary",
+              "action": {
+                "type": "uri",
+                "label": "購入する",
+                "uri": "@{variables('アプリURL')}&userid=@{variables('ユーザーID')}&priceid=@{variables('対象の価格IDリスト')[0]}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "kilo",
+        "hero": {
+          "type": "image",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover",
+          "url": "https://user-images.githubusercontent.com/56163213/134349022-acc4a700-97a6-4157-93ec-d7bd393b706a.png"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "キーホルダー２",
+              "wrap": true,
+              "weight": "bold",
+              "size": "lg"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "flex": 1,
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "1200 円",
+                  "wrap": true,
+                  "weight": "bold",
+                  "size": "lg",
+                  "flex": 0,
+                  "color": "#DC3545"
+                }
+              ]
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "flex": 2,
+              "style": "primary",
+              "action": {
+                "type": "uri",
+                "label": "購入する",
+                "uri": "@{variables('アプリURL')}&userid=@{variables('ユーザーID')}&priceid=@{variables('対象の価格IDリスト')[1]}"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "kilo",
+        "hero": {
+          "type": "image",
+          "size": "full",
+          "aspectRatio": "20:13",
+          "aspectMode": "cover",
+          "url": "https://user-images.githubusercontent.com/56163213/134348263-fd68b8d8-4c42-44ff-9890-e31bf374c97b.png"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "キーホルダー３",
+              "wrap": true,
+              "weight": "bold",
+              "size": "lg"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "flex": 1,
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "1500 円",
+                  "wrap": true,
+                  "weight": "bold",
+                  "size": "lg",
+                  "flex": 0,
+                  "color": "#DC3545"
+                }
+              ]
+            }
+          ]
+        },
+        "footer": {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "flex": 2,
+              "style": "primary",
+              "action": {
+                "type": "uri",
+                "label": "購入する",
+                "uri": "@{variables('アプリURL')}&userid=@{variables('ユーザーID')}&priceid=@{variables('対象の価格IDリスト')[2]}"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
