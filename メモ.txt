@@ -1,18 +1,17 @@
 １．Stripeシークレットキー
-sk_test_51GvhcRC2yrm80sVIZXnara35i8SSC1wM0Ahu9A5Vyhl5O7FInTg8PKewYgetkhHbi4QnbuIBHsbZagSLQJftTikU00tz7a3ZM3
+
 
 
 ２．LINEのアクセス
-TAoi8UBHjLaEWdKOmQQrR0e+HG+EtSR3XHxsGU+EHUuUqYPKh5Le5cj1sCBsjwopSCsEnPvx9lfcwE9y8U1fsWm8vx0u3/lqPfoJu+x489IeIzEA8woRBxKYxjBqrqa6ZHJsEgdnuRwJwHB4wV/SBAdB04t89/1O/w1cDnyilFU=
+
 
 
 ３．対象の価格IDリスト
 [
-  "price_1JVeMSC2yrm80sVI5XiwJg3B",
-  "price_1JVeOYC2yrm80sVIYpjcRtiO",
-  "price_1JcUrTC2yrm80sVI7hllusgj"
+  "",
+  "",
+  ""
 ]
 
 
 ４，flow1の受信URL
-https://prod-23.japaneast.logic.azure.com:443/workflows/23c1b1c238f947ffbb99114322295c61/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=-L5QQX0vgcJQeapC4KQnrvPRDJEuPamnqP95pHLGsi8
